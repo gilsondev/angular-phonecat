@@ -10,6 +10,6 @@ describe('PhoneListCtrl', function() {
         var ctrl = $controller('PhoneListCtrl', {$scope:scope});
 
         expect(scope.phones.length).toBe(3);
-        excect(scope.name).toBe('World');
+        expect(scope.name).toBe('World');
     }));
 });
